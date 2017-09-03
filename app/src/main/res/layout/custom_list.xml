@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imf"
+            android:padding="5dp"
+            android:background="@drawable/ring_button"
+            android:layout_margin="10dp"
+            android:layout_weight="0.3"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:id="@+id/dname"
+                android:layout_width="wrap_content"            
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                />
+            
+            <TextView
+                android:id="@+id/dmob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+               />
+
+            <TextView
+                android:id="@+id/demail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+
+            <TextView
+                android:id="@+id/dcity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/dbloodType"
+            android:background="@drawable/dark_box"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_vertical" />
+
+
+    </LinearLayout>
+        
+
+</LinearLayout>

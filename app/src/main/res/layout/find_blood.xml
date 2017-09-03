@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg"
+    android:orientation="horizontal"
+
+    >
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Required Blood"
+                android:textSize="30sp"
+                android:textStyle="normal"
+                android:textColor="#000000"
+                android:layout_marginTop="28dp"
+                android:layout_gravity="center"/>
+
+
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="4"
+                android:layout_marginTop="28dp"
+                android:layout_gravity="center"
+                
+                >
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:text="A+"
+                    android:onClick="apos"
+                    android:textSize="32sp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_marginBottom="28dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffff"
+                    android:id="@+id/Button1"
+                    android:background="@drawable/ring_button"/>             
+
+
+
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:text="A-"
+                    android:onClick="aneg"
+                    android:textSize="32sp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginBottom="28dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffff"
+                    android:id="@+id/Button2"
+                    android:background="@drawable/ring_button"/>
+
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:text="B+"
+                    android:onClick="bpos"
+                    android:textSize="32sp"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    
+                    android:layout_marginBottom="28dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffff"
+                    android:id="@+id/Button3"
+                    android:background="@drawable/ring_button"/>
+
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:text="B-"
+                    android:textSize="32sp"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:onClick="bneg"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginBottom="28dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffff"
+                    android:id="@+id/Button4"
+                    android:background="@drawable/ring_button"/>
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:text="AB+"
+                    android:textSize="32sp"
+                    android:layout_row="2"
+                    android:layout_column="0"
+                    android:onClick="abpos"
+                    android:layout_marginBottom="28dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffff"
+                    android:id="@+id/Button5"
+                    android:background="@drawable/ring_button"/>
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:text="AB-"
+                    android:onClick="abneg"
+                    android:textSize="32sp"
+                    android:layout_row="2"
+                    android:layout_column="1"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginBottom="28dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffff"
+                    android:id="@+id/Button6"
+                    android:background="@drawable/ring_button"/>
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:text="O+"
+                    android:onClick="opos"
+                    android:textSize="32sp"
+                    android:layout_row="3"
+                    android:layout_column="0"
+                    
+                    android:layout_marginBottom="28dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffff"
+                    android:id="@+id/Button7"
+                    android:background="@drawable/ring_button"/>
+
+                <Button
+                    android:layout_width="120dp"
+                    android:onClick="oneg"
+                    android:layout_height="120dp"
+                    android:text="O-"
+                    android:textSize="32sp"
+                    android:layout_row="3"
+                    android:layout_column="1"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginBottom="28dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffff"
+                    android:id="@+id/Button8"
+                    android:background="@drawable/ring_button"/>
+
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

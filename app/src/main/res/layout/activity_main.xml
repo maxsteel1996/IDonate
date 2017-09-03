@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+
+    
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+            >
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnCount="2"
+                android:rowCount="4"
+                android:layout_marginTop="28dp"
+                android:gravity="fill|center"
+                >
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_marginLeft="60dp"
+                android:layout_marginBottom="28dp"
+                android:layout_column="0">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center|fill"
+                    android:id="@+id/searchImage"
+                    android:src="@drawable/ic_search"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Search"
+                    android:textSize="25sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_below="@id/searchImage"
+                    android:textStyle="normal"
+                    android:textColor="#000000"
+
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:layout_marginBottom="28dp"
+                    android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:gravity="center|fill"
+                    android:id="@+id/contactImage"
+                    android:src="@drawable/ic_add_member"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact"
+                    android:textSize="25sp"
+                    android:textColor="#000000"
+
+                    android:layout_marginLeft="5dp"
+                    android:layout_below="@id/contactImage"
+                    android:textStyle="normal"
+
+
+                    />
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginBottom="28dp"
+                    android:layout_column="0">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center|fill"
+                        android:id="@+id/postImage"
+                        android:src="@drawable/ic_post_blood_request"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Search"
+                        android:textSize="25sp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_below="@id/postImage"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+
+                        />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:layout_marginBottom="28dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:gravity="center|fill"
+                        android:id="@+id/peopleImage"
+                        android:src="@drawable/ic_people_in_need"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contact"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+
+                        android:layout_marginLeft="5dp"
+                        android:layout_below="@id/peopleImage"
+                        android:textStyle="normal"
+
+
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginBottom="28dp"
+                    android:layout_column="0">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center|fill"
+                        android:id="@+id/reminderImage"
+                        android:src="@drawable/ic_reminder"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Search"
+                        android:textSize="25sp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_below="@id/reminderImage"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="1"
+                    android:layout_marginBottom="28dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:gravity="center|fill"
+                        android:id="@+id/shareImage"
+                        android:src="@drawable/ic_share_app"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contact"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+
+                        android:layout_marginLeft="5dp"
+                        android:layout_below="@id/shareImage"
+                        android:textStyle="normal"
+
+
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginBottom="28dp"
+                    android:layout_column="0">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center|fill"
+                        android:id="@+id/bloodImage"
+                        android:src="@drawable/ic_blood_bank"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Search"
+                        android:textSize="25sp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_below="@id/bloodImage"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_column="1"
+
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:gravity="center|fill"
+                        android:id="@+id/contactUsImage"
+                        android:src="@drawable/ic_contact_us"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contact"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        
+                        android:layout_marginLeft="5dp"
+                        android:layout_below="@id/contactUsImage"
+                        android:textStyle="normal"
+
+
+                        />
+
+                </RelativeLayout>
+
+
+            </GridLayout>
+         </LinearLayout>
+    </ScrollView>
+</LinearLayout>
